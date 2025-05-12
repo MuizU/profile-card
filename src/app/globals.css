@@ -6,12 +6,6 @@
   --white: #ffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #171717;
-    --foreground: #ffffff;
-  }
-}
 
 html,
 body {
