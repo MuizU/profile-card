@@ -1,12 +1,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --purple: #4338ca;
+  --grey: #525252;
+  --gray-transition: linear-gradient(to bottom right, #f9fafb, #d2d6db)
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #171717;
+    --foreground: #ffffff;
   }
 }
 
