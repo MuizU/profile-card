@@ -55,7 +55,7 @@ const Card = ({
       <section className={styles.infoSection}>
         <header className={styles.headerWrapper}>
           <Image
-            src={"/profile_picture.svg"}
+            src={"/profile_pic.jpg"}
             alt="profile-pic"
             width={64}
             className={styles.headerImage}
