@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   const description =
-    "I transform caffeine into clean, elegant code that powers innovation and rarely breaks. Trusted contributor on Stack Overflow.";
+    "I turn coffee into bugs which are fixed by someone else. Certified Stack Overflow and ChatGPT developer.";
 
   return (
     <article className={styles.container}>
