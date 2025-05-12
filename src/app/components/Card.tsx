@@ -51,7 +51,7 @@ const Card = ({
     },
   ];
   return (
-    <div className={`${styles.container} ${className}`}>
+    <section className={`${styles.container} ${className}`}>
       <section className={styles.infoSection}>
         <header className={styles.headerWrapper}>
           <Image
@@ -76,13 +76,18 @@ const Card = ({
         <Button onClick={handleContactClick}>Contact Me</Button>
         <section className={styles.linkSection}>
           {socialLinks.map(({ icon, href }) => (
-            <a href={href} key={href} target="_blank" className={styles.hyperLink}>
+            <a
+              href={href}
+              key={href}
+              target="_blank"
+              className={styles.hyperLink}
+            >
               <Image src={icon} alt={href} height={16} width={16} />
             </a>
           ))}
         </section>
       </section>
-    </div>
+    </section>
   );
 };
 

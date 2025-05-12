@@ -1,6 +1,10 @@
 .container {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
+
 
 .credits {
   color: #777;
@@ -14,11 +18,4 @@
 .credits a {
   color: #000;
   font-weight: bold;
-}
-
-.card {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
 }
